@@ -1,0 +1,144 @@
+body {
+    /* Set the background image URL */
+    background-image: url('img/basketballbkg1.jpg');
+    
+    /* Set background properties */
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position:top; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+}
+
+/* Add additional styles for other elements as needed */
+.fa-solid.fa-house{
+ color:rgb(200, 214, 226) ;
+ 
+}
+.homeicon{
+    text-align: right;
+}
+.Menu{
+    display:flex;
+     margin-top: 0%;
+     justify-content: space-between ;
+    
+             background: #a1b6a2;
+             text-align:left;
+             font-size: 0%;
+             
+ }
+ .fa-solid.fa-xmark ,.fa-solid.fa-bars{
+     color: rgb(200, 214, 226);
+   
+ }
+
+.container{
+margin-top: 0%;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+h3{
+  font-size: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.container  h2{
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: #1f2126;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.button {
+    background-color: #663de4;
+    width: 80px;
+    height: 50px;  
+   margin-top: 10px;
+   border-radius: 10%; 
+   font-size: 20px;
+   font-style:inherit;
+   margin-left: 2px;
+   color: rgb(204, 175, 157);
+   
+}
+h2{
+    color: rgb(46, 37, 23);
+    font-family: 'Bebas Neue', sans-serif;
+}
+h4{
+    width: 90%;
+    height: 3px;
+    background-color: #663de4;
+}
+ #desc p { 
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: large;
+width: 50%;
+margin-left: 5%;
+border: #663de4   1px solid;
+font-style: normal
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: rgb(9, 65, 65);
+   
+}
+ul{
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 14px;
+      background-image: url('img/basketballbkg.jpg');
+      /* other styles for smaller screens */
+
+    }
+
+    .button {
+        background-color: #b44c0f;
+        
+        height: 50px;  
+       margin-top: 0px;
+       border-radius: 10%; 
+       font-size: 15px;
+      
+       margin-left: 2px;
+              
+       
+    }
+    .container{
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+       
+       
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+        }
+        #Team2{
+            margin-top: 100%;
+        }
+        #Team1{
+            margin-top: 0%;
+        }
+
+  }
+   

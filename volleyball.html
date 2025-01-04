@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoccer</title>
+    <link rel="stylesheet" href="volleyball.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/94252c5f0f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <div class="homeicon">
+    <a href="index.html"> <i class="fa-solid fa-house"> </i></a>
+  </div>
+  <div id="games">
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+    <ul class="Menu" id="Menu">
+      <li>
+        <a href="basketball.html"> BASKETBALL</a>
+      </li>
+
+      <li>
+        <a href="Soccer.html"> FOOTBALL</a>
+      </li>
+
+      <li>
+        <a href="volleyball.html">VOLLEYBALL</a>
+      </li>
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+    </ul>
+  </div>
+
+  <body>
+    <div class="container">
+      <div id="Team1">
+        <h3>Team1</h3>
+
+        <h2 class="score1" id="scoreDisplay1">0</h2>
+        <section>
+          <button class="button" onclick="increaseScore1(1)">+1</button>
+          <button class="button" onclick="decreaseScore1(1)">-1</button>
+          <button class="button" onclick="resetScore1()">Reset</button>
+        </section>
+      </div>
+
+      <div id="Team2">
+        <h3>Team2</h3>
+
+        <h2 class="score2" id="scoreDisplay2">0</h2>
+        <section>
+          <button class="button" onclick="increaseScore2(1)">+1</button>
+          <button class="button" onclick="decreaseScore2(1)">-1</button>
+          <button class="button" onclick="resetScore2()">Reset</button>
+        </section>
+      </div>
+    </div>
+
+    <script src="volleyball.js"></script>
+  </body>
+</html>

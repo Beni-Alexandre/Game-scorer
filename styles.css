@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(210, 228, 227);
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.container  h2{
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: #1f2126;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+ #desc p { 
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: large;
+width: 50%;
+margin-left: 5%;
+border: #663de4   1px solid;
+font-style: normal
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: rgb(9, 65, 65);
+   
+}
+ul{
+    list-style-type: none;
+}
+@media only screen and (max-width: 900px){
+    h1{
+        font-size: 50px;
+    }
+    #desc p {
+        width: 80%;
+    }
+
+}
+   
