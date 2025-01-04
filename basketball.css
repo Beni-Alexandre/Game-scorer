@@ -1,12 +1,12 @@
 body {
-    /* Set the background image URL */
+   
     background-image: url('img/basketballbkg1.jpg');
     
-    /* Set background properties */
-    background-size: cover; /* Adjusts the size of the background image */
-    background-position:top; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+  
+    background-size: cover; 
+    background-position:top; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 /* Add additional styles for other elements as needed */
